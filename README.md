@@ -13,7 +13,7 @@ Buat dulu SG yang sesuai, ijinkan inbound rule port 22 dan 80 dari anywhere-IPv4
 
 ### A. Buat RDS
 
-### A. Membuat Instance EC2
+### B. Membuat Instance EC2
 
 1. Login ke AWS Academy Learner Lab.
 2. Launch Instance dengan spesifikasi:
