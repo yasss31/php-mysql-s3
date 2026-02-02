@@ -104,6 +104,8 @@ cp * /var/www/html
 
 
 ## Langkah 2: Deploy Aplikasi
+```
+
 edit file config.php
 
 sesuaikan 
@@ -111,7 +113,6 @@ sesuaikan
 $db_host = ''; // ISI DENGAN ENDPOINT RDS ANDA
 $db_user = 'admin';      
 $db_pass = 'P4ssw0rd';   
-
 
 ```
 
