@@ -11,6 +11,7 @@
 
 Buat dulu SG yang sesuai, ijinkan inbound rule port 22 dan 80 dari anywhere-IPv4 (0.0.0.0/0)
 
+### A. Buat RDS
 
 ### A. Membuat Instance EC2
 
