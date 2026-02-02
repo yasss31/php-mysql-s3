@@ -9,7 +9,7 @@
 
 ## I. Persiapan Infrastruktur AWS
 
-Buat dulu SG yang sesuai, ijinkan inbound rule port 22 dan 80 dari anywhere-IPv4 (0.0.0.0/0)
+Buat dulu SG yang sesuai, ijinkan inbound rule port 22, 80, dan 3306 dari anywhere-IPv4 (0.0.0.0/0)
 
 ### A. Buat RDS
 
@@ -27,7 +27,7 @@ Confirm master password : (P4ssw0rd) boleh diganti
 
 
 11. Public access : No, kalau butuh diakses dari luar buat jadi Yes
-12. VPC security group (firewall) : Choose existing, pilih yang ijinkan inbound 3306
+12. VPC security group (firewall) : Choose existing, pilih yang sudah dibuat tadi
 13. Klik create database
 14. Tunggu sampai mendapatkan End Point
 
@@ -36,7 +36,7 @@ Confirm master password : (P4ssw0rd) boleh diganti
 
 1. Login ke AWS Academy Learner Lab.
 2. Launch Instance dengan spesifikasi:
-   - **Nama:** `PHP-S3-Server`
+   - **Nama:** `php-mysql-s3`
    - **AMI:** Ubuntu 24.04 LTS.
    - **Instance Type:** t2.micro (Free Tier).
    - **Key Pair:** Pilih atau buat baru.
@@ -72,7 +72,7 @@ Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache
 sudo apt update
 
 # Install Apache, PHP, dan ekstensi yang diperlukan
-sudo apt install -y apache2 php php-cli php-curl php-xml php-mbstring libapache2-mod-php unzip
+sudo apt install -y apache2 php-mysql php php-cli php-curl php-xml php-mbstring libapache2-mod-php unzip
 
 
 # Install Composer secara global
@@ -91,10 +91,6 @@ sudo chmod -R 777 /var/www/html
 sudo rm /var/www/html/index.html
 ```
 
-# Install Composer secara global
-```
-sudo apt install php-myadmin
-```
 
 ## Langkah 2: Deploy Aplikasi
 ```
