@@ -106,7 +106,10 @@ cp * /var/www/html
 
 ## Sesuikan config.php
 ```
-edit file config.php
+edit file config.php di /var/www/html
+
+cd /var/www/html
+nano config.php
 
 sesuaikan 
 
