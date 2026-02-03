@@ -38,4 +38,5 @@ $tableQuery = "CREATE TABLE IF NOT EXISTS assets (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )";
 $conn->query($tableQuery);
+
 ?>

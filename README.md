@@ -7,6 +7,7 @@
 ### Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyimpan file (asset) di **AWS S3** menggunakan **EC2 Ubuntu 24.04** di lingkungan **AWS Academy**.
 ---
 
+
 ## I. Persiapan Infrastruktur AWS
 
 Buat dulu SG yang sesuai, ijinkan inbound rule port 22, 80, dan 3306 dari anywhere-IPv4 (0.0.0.0/0)
