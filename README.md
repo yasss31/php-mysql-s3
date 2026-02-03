@@ -128,5 +128,5 @@ $db_pass = 'P4ssw0rd';   // GANTI DENGAN PASSWORD RDS ANDA
 
 
 ## Pengujian
-### index.php : harus menggunakan bucket policy
-### index2.php : tanpa bucket policy
+##### index.php : harus menggunakan bucket policy
+##### index2.php : tanpa bucket policy
