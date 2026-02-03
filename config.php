@@ -15,7 +15,7 @@ $s3 = new S3Client([
 //$db_host = 'database-2.ccqnofwkwmzs.us-east-1.rds.amazonaws.com';
 $db_host = '';           // ISI DENGAN ENDPOINT RDS ANDA
 $db_user = 'admin';      // GANTI DENGAN USER RDS ANDA
-$db_pass = 'P4ssw0rd';   // GANTI DENGAN PASSWORD RDS ANDA
+$db_pass = 'P4ssw0rd';   // GANTI DENGAN PASSWORD RDS ANDA 
 $db_name = 'db1'; 
 
 // Koneksi awal ke MySQL
