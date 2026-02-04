@@ -1,6 +1,6 @@
 # Aplikasi CRUD PHP-MySQL yang menyimpan file di **AWS S3** 
 ---
-![Arsitektur](php-mysql-s3.drawio)
+![Arsitektur](php-mysql-s3.png)
 
 ---
 
