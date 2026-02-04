@@ -1,5 +1,8 @@
 # Aplikasi CRUD PHP-MySQL yang menyimpan file di **AWS S3** 
 ---
+![Arsitektur](php-mysql-s3.drawio)
+
+---
 
 ## menggunakan **EC2 Ubuntu 24.04** di lingkungan **AWS Academy**.
 ---
